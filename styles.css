@@ -1,0 +1,196 @@
+body {
+    background-color: rgba(158, 241, 210, 0.827);
+    font-family: "Open Sans", sans-serif;
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* primer header  !!!! */ 
+.main-nav {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+.main-nav-bg-color {
+    background-color:rgb(169, 186, 235);
+}
+.header {
+    margin: 40px 20px 0;
+    font-size: 0;
+}
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+.header li {
+    display: inline;
+    margin: 0 15px;
+}
+.header ul {
+    padding: 0;
+}
+.logodelu {
+    width: 100px;
+}
+.imagendelu {
+    width: 20%;
+}
+.navbar {
+    /* width: 60%; esta propiedad se quito para funcionar con Bootstrap */
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+    font-family: 'Rajdhani', sans-serif;
+}
+.actions {
+  width: 20%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actions a {
+  color: #3ed2af;
+  text-decoration:solid;
+  margin: 0 15px;
+}
+
+/* aqui inicia el body*/
+
+.main h1 {
+    font-family: 'Pacifico', cursive;
+    color:rgb(37, 8, 56);
+    text-align:center;
+
+}
+.main  {
+    font-family: 'Rajdhani', sans-serif;
+    color:rgb(37, 8, 56);
+    text-align:center;
+}
+.main first-image {
+    width: 50%;
+    text-align: center;
+}
+.main button{
+    margin-left: -15px;
+    border-radius: 5px;
+    border: none;
+    padding: 16px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+    .main form input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* aqui esta lo del video */
+
+.publish {
+    display: flex;
+    width: 95%;
+    margin: 10px auto;
+    align-items: center;
+    background-color: #8bd3f7;
+  }
+  .publish .publicidad .titulo-publish {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    font-weight: 90px;
+    color: #020303;
+    margin-top: 15px;
+  }
+  .publicidad .texto {
+    font-family: 'Rajdhani', sans-serif;
+  }
+  .publish .publicidad .color-gris {
+    color: #8b8b8bcc;
+  }
+  .publish .video {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size:smaller;
+  }
+  .publish .video .video-contenedor {
+    width: 90%;
+  }
+  .publish .publicidad {
+    flex: 1;
+  }
+  
+  /* aqui va el gridy FLEXBOX*/
+
+  .carta-viajes h1 {
+    font-family: 'Pacifico', cursive;
+    text-align:center;
+  }
+
+  .features {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    height: 800px;
+    background-color:none;
+    padding: 5% 5%;
+}
+
+.feature-card {
+    margin: 0 20px 20px;
+}
+
+.feature-content {
+    background-color: rgb(221, 244, 244);
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    align-items: top;
+    overflow: hidden;
+}
+
+.feature-content .feature-text {
+    flex: 2;
+    padding: 100px 20px;
+}
+
+.feature-content .feature-text h3 { /*TITULO*/
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+    color: #1bb4b7;
+    font-weight: 400;
+}
+.feature-content .feature-text p { /*TEXTO*/
+  font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+}
+.feature-content .feature-text a {
+  font-size: 16px;
+  color: #011063;
+  font-weight: 600;
+  text-decoration: none;
+}
+.feature-text figure {
+    margin-left: auto;
+
+}
+
+.feature-text figure img {
+    height:150px;
+}
+.feature-content .feature-image {
+    flex: 2;
+}
+.feature-image figure img {
+    width: 150%;
+}
+
